@@ -1,0 +1,20 @@
+button{
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    background-color: transparent;
+    border: 2px solid aliceblue;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    color: rgb(52, 155, 245);
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rc_bottom-fixed{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
