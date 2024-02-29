@@ -1,0 +1,35 @@
+
+.rc_cardForm{
+    width: 300px;
+    background-color: rgba(15, 138, 245, 0.295);
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    backdrop-filter: blur(15px rgba(238, 104, 104, 0.5));
+    box-shadow: inset 0 0 30px rgba(243, 5, 5, 0.774);
+}
+
+.rc_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+
+    input{
+        padding: 10px 2px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        width: 200px;
+    
+    }
+
+    button{
+        padding: 10px;
+        border-radius: 5px;
+        border: rgb(150, 9, 9) 1px solid;
+        outline:rgba(238, 104, 104, 0.5);
+    }
+}

@@ -1,9 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
 html,
 body{
-    background-color: aliceblue;
+    background-color: rgb(6, 15, 22);
+    color: aliceblue;
+}
+a{
+    color: aliceblue;
+    margin: 50px auto;
 }
 
 .rc_vista{
-    height: 85%;
+    max-width: 1280px;
+    min-height: 98vh;
+    background-color: rgb(51, 4, 4);
+    margin: 0 auto;
+    padding: 0px 10px;
+   overflow-y: scroll;
+
 }
+.rc_center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ ::-webkit-scrollbar {
+   display: none;
+} 

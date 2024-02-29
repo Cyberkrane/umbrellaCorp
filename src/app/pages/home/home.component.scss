@@ -1,0 +1,29 @@
+
+.rotating-image {
+    width: 200px; /* Ancho de la imagen */
+    height: 200px; /* Alto de la imagen */
+    margin: 50px auto; /* Margen para centrar la imagen */
+    animation: rotateImage 10s linear infinite; /* Animación para rotar la imagen */
+  }
+
+  img {
+    cursor: pointer;
+    filter: drop-shadow(0px 6px 5px rgba(248, 77, 91, 0.979)); /* Sombra para hacer un efecto de profundidad */
+  }
+  
+  @keyframes rotateImage {
+    from {
+      transform: rotateY(0deg); /* Rotación inicial */
+    }
+    to {
+      transform: rotateY(360deg); /* Rotación completa (una vuelta completa) */
+    }
+  }
+
+  .imgAplastated{
+    height: 10px;
+    margin-top: 0;
+    border-radius: 50%;
+    opacity: 0.5;
+    box-shadow: inset 0 0 5px rgb(22, 21, 21), 0 0 5px rgb(22, 21, 21);
+  }
