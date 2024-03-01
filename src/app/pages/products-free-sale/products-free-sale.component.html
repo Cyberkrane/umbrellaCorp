@@ -1,11 +1,7 @@
-
-
 <div class="rc_vista">
-    <h1>Products Free Sale</h1>
+  <h2>Products Free Sale</h2>
 
-<div class="rc_carder">
-
-
+  <div class="rc_carder">
     <div class="rc_card" *ngFor="let product of products">
       <img src="{{ product.image }}" />
       <p class="rc_title">{{ product.name }}</p>
@@ -15,14 +11,10 @@
       <p>{{ product.activeIngredients }}</p>
       <p class="rc_price">${{ product.price }}</p>
     </div>
+  </div>
   
-
-    
 </div>
 
-</div>
-<div class="rc_bottom-fixed">
-
-    <app-btn-backtop></app-btn-backtop>
-
+<div class="rc_bottom_fixed">
+  <app-btn-backtop></app-btn-backtop>
 </div>

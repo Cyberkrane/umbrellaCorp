@@ -1,15 +1,19 @@
-<div class="rc_cardForm">
+<div class="rc_center">
+    
+    <div class="rc_cardForm">
 
-    <h1>Login</h1>
+        <h1>Login</h1>
+    
+        <form class="rc_form">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password">
+        <button type="submit" routerLink="/products-free-sale">Login</button>
+        </form>
+    
+        <a routerLink="/register">I haven´t an account.</a>
+    </div>
 
-    <form class="rc_form">
-    <label for="username">Username</label>
-    <input type="text" id="username" name="username">
-    <label for="password">Password</label>
-    <input type="password" id="password" name="password">
-    <button type="submit">Login</button>
-</form>
-
-    <a routerLink="/register">I haven´t an account.</a>
 </div>
 
