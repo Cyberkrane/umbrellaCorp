@@ -5,3 +5,11 @@ a{
     letter-spacing: 5px;
     text-transform: capitalize;
 }
+
+@media (max-width: 767px) {
+    a{
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+    
+}
