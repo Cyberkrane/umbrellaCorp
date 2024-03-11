@@ -1,13 +1,22 @@
 
 .rc_cardForm{
     width: 300px;
-    border: 1px solid rgba(91, 87, 87, 0.647);
+    border: 1px solid rgb(95, 21, 21);
+    // background-color: rgb(253, 4, 4);
+    background-image: radial-gradient(rgb(188, 15, 15), rgb(42, 24, 24));
+    // color: black;
     border-radius: 10px;
     margin: 20px auto;
     padding: 50px 10px;
     text-align: center;
-    backdrop-filter: blur(15px rgba(238, 104, 104, 0.5));
-    box-shadow: inset 0 0 30px rgba(243, 5, 5, 0.774);
+    box-shadow: inset 0 0 10px rgb(1, 1, 1);
+
+    .user{
+        i{
+            font-size: 50px;
+        }
+    }
+
 }
 
 .rc_form{
